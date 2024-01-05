@@ -12,6 +12,7 @@ We'll pass strings with varying formats, such as racecar, RaceCar, and race CAR 
 
 We'll also pass strings with special symbols, such as 2A3*3a2, 2A3 3a2, and 2_A3*3#A2.
 ``` javascript
+//function prototype
 function palindrome(str) {
   return true;
 }
@@ -23,8 +24,8 @@ palindrome("eye");
 <b>Roman Numeral Converter program
 Convert the given number into a roman numeral.
 
-|Roman numerals |	 |Arabic numerals|
-| --- | | --- |
+|Roman numerals | Arabic numerals |
+| --- | --- |
 | M	  | 1000 |
 
 |CM   |  900 |
