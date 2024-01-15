@@ -62,3 +62,11 @@ Write a function which takes a ROT13 encoded string as input and returns a decod
 
 All letters will be uppercase. Do not transform any non-alphabetic character (i.e. spaces, punctuation), but do pass them on.
 
+```javascript
+//function prototype
+function rot13(str) {
+  return str;
+}
+
+rot13("SERR PBQR PNZC");
+```
