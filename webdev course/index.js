@@ -1,7 +1,6 @@
-const totalChars = 240;
+const userName = prompt("What is your name? ")
+const nameLength = userName.length;
+const nameUppercase = userName.slice(0, 1).toUpperCase();
+const sliceToLower = userName.slice(1, nameLength).toLowerCase();
 
-const userChars = prompt("What is Happening ? ")
-const charsInput = userChars.length
-const remainChar = totalChars - charsInput
-
-alert('You entered ' + charsInput + ' characters. Remaining characters is ' + remainChar)
+alert(nameUppercase+sliceToLower)
