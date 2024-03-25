@@ -1,6 +1,3 @@
-const userName = prompt("What is your name? ")
-const nameLength = userName.length;
-const nameUppercase = userName.slice(0, 1).toUpperCase();
-const sliceToLower = userName.slice(1, nameLength).toLowerCase();
-
-alert(nameUppercase+sliceToLower)
+const dogAge = prompt("What is your dog age? ")
+humanAge = (dogAge - 2) * 4 + 21;
+alert("Your dog is " + humanAge + " years old in human age.")
