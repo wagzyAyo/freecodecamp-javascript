@@ -1,3 +1,9 @@
-const dogAge = prompt("What is your dog age? ")
-humanAge = (dogAge - 2) * 4 + 21;
-alert("Your dog is " + humanAge + " years old in human age.")
+function leapYear(year) {
+    if (year % 4 === 0 && year % 100 === 0 && year % 400 === 0) {
+        return 'is a leap year'
+    } else {
+        return 'Not a leap year'
+    }
+}
+
+window.alert(leapYear(2000))
